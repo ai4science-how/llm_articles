@@ -1,0 +1,516 @@
+{
+  "graph": {
+    "nodes": [
+      {
+        "id": "satya_nadella",
+        "type": "Person",
+        "properties": {
+          "name": "Satya Nadella",
+          "supporting_text": [
+            {
+              "timestamp_range": "0:00-0:02",
+              "text": "Satya nadela thank you so much for doing this I want to be very very respectful of your time"
+            },
+            {
+              "timestamp_range": "0:21-1:03",
+              "text": "… to me whenever there's been a real platform shift the core application architectures have changed right ... I think that something of that scale or if not more is going to happen again with the application logic right and this time around the thing about agents is they are not going to be bound to essentially anyone's SAS application and its data ... that is what's going to be the change ..."
+            },
+            {
+              "timestamp_range": "1:03-2:01",
+              "text": "… right now in my own use case I go to co-pilot I say at sales which is actually touching Dynamic CRM brings back whatever the account information then it brings back information from Office 365 I put it into pages I share it with people the entire workflow … I never … nobody uses it because you know when was the last time I logged into CRM never except now I'm every day querying my CRM database because it's so much easier because it's one agent away and it's working with all the other agents …"
+            },
+            {
+              "timestamp_range": "2:01-3:09",
+              "text": "… it's a swarm of Agents … when you hire a data analyst you don't you hire them and their spreadsheets … I already see that right … I have a simple agent now which is a SharePoint agent that I'm always addressing and it's fantastic not to just have to go to a separate entity and you know query it but to have it right there …"
+            },
+            {
+              "timestamp_range": "3:31-5:20",
+              "text": "… there's a design space that is not narrow … that's why we are building out Foundry such that we can even be distribution for people who are building purpose-built models for Industries … so we’re going to bring them customers … the design space is large enough … there will be in every layer of the tech stack opportunities for innovation …"
+            },
+            {
+              "timestamp_range": "6:18-7:35",
+              "text": "… one has to deal with both the pace and the scale of innovation is to be very good at sampling with agility … you can’t say I'm going to build this and then I'll go to next … you have to be simultaneously working with some Frontier thing … while you're optimizing that …"
+            },
+            {
+              "timestamp_range": "9:20-10:00",
+              "text": "… if you care about hallucination there are thousand ways to get rid of hallucinations like grounding … if really you don't want to use an llm go use just regular machine learning … that’s why I think evals are important …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "saas",
+        "type": "Concept",
+        "properties": {
+          "name": "Software as a Service (SaaS)",
+          "supporting_text": [
+            {
+              "timestamp_range": "0:08-0:18",
+              "text": "… The internet is AB Buzz with conversation of Satya Nadela said that SAS is dead now I know you know that's not exactly what you said …"
+            },
+            {
+              "timestamp_range": "0:21-0:56",
+              "text": "… to me whenever there's been a real platform shift the core application architectures have changed right … I think that something of that scale or if not more is going to happen again with the application logic …"
+            },
+            {
+              "timestamp_range": "0:56-1:32",
+              "text": "… this time around the thing about agents is they are not going to be bound to essentially anyone's SAS application and its data … I'll have an agentic sort of view where the task the intent … will orchestrate all the logic across multiple SAS applications …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "agents",
+        "type": "Concept",
+        "properties": {
+          "name": "Agents",
+          "supporting_text": [
+            {
+              "timestamp_range": "0:56-1:32",
+              "text": "… the thing about agents is they are not going to be bound to essentially anyone's SAS application … orchestrate all the logic across multiple SAS applications …"
+            },
+            {
+              "timestamp_range": "2:01-3:09",
+              "text": "… it's a swarm of Agents … I have a simple agent now which is a SharePoint agent that I'm always addressing …"
+            },
+            {
+              "timestamp_range": "2:42-2:58",
+              "text": "… two years from now we're going to say yeah agents yeah I build them like all day like I build docs and spreadsheets …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "relational_database",
+        "type": "Concept",
+        "properties": {
+          "name": "Relational Database",
+          "supporting_text": [
+            {
+              "timestamp_range": "0:29-0:41",
+              "text": "… let's go all the way back to when the relational database was born … that was the first time we really said oh wow I can separate out my data tier from my application …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "application_architecture",
+        "type": "Concept",
+        "properties": {
+          "name": "Application Architecture",
+          "supporting_text": [
+            {
+              "timestamp_range": "0:21-1:00",
+              "text": "… whenever there's been a real platform shift the core application architectures have changed … other platforms came like the web … we said oh what's an end tier way to write application …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dynamics_crm",
+        "type": "Product",
+        "properties": {
+          "name": "Dynamics CRM",
+          "supporting_text": [
+            {
+              "timestamp_range": "1:03-1:30",
+              "text": "… right now in my own use case I go to co-pilot I say at sales which is actually touching Dynamic CRM … it brings back information from Office 365 …"
+            },
+            {
+              "timestamp_range": "1:30-2:01",
+              "text": "… the entire workflow … I never … when was the last time I logged into CRM never except now I'm every day querying my CRM database …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "office_365",
+        "type": "Product",
+        "properties": {
+          "name": "Office 365",
+          "supporting_text": [
+            {
+              "timestamp_range": "1:03-1:16",
+              "text": "… it brings back information from Office 365 I put it into pages I share it with people the entire workflow …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "sharepoint",
+        "type": "Product",
+        "properties": {
+          "name": "SharePoint",
+          "supporting_text": [
+            {
+              "timestamp_range": "2:01-2:28",
+              "text": "… I have a simple agent now which is a SharePoint agent that I'm always addressing …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "copilot",
+        "type": "Product",
+        "properties": {
+          "name": "Microsoft Copilot",
+          "supporting_text": [
+            {
+              "timestamp_range": "1:03-2:01",
+              "text": "… I go to co-pilot I say at sales … it brings back information from Office 365 … I never … used CRM directly … now I'm every day querying my CRM …"
+            },
+            {
+              "timestamp_range": "1:32-1:40",
+              "text": "… because it's so much easier because it's one agent away and it's working with all the other agents …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "india",
+        "type": "Location",
+        "properties": {
+          "name": "India",
+          "supporting_text": [
+            {
+              "timestamp_range": "3:30-4:02",
+              "text": "… how does India stay competitive as this changes … we always said that if India can build foundational models … that'll be an Advantage … but we're now seeing many of those get commoditized …"
+            },
+            {
+              "timestamp_range": "4:34-5:09",
+              "text": "… I think India has tremendous opportunity … the total developer Community here the entrepreneurial energy here … the application space … whoever builds AI applied to that here SAS companies out of here …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "llms",
+        "type": "Concept",
+        "properties": {
+          "name": "Large Language Models (LLMs)",
+          "supporting_text": [
+            {
+              "timestamp_range": "3:32-3:44",
+              "text": "… let's say if you were 25 years old you were sitting out of India … you're seeing all these new models come out …"
+            },
+            {
+              "timestamp_range": "9:20-10:00",
+              "text": "… if you care about hallucination there are thousand ways to get rid of hallucinations like grounding … if really you don't want to use an llm go use just regular machine learning …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "foundry",
+        "type": "Product",
+        "properties": {
+          "name": "Foundry (Microsoft Distribution Platform for AI Models)",
+          "supporting_text": [
+            {
+              "timestamp_range": "3:31-5:00",
+              "text": "… that's why we are building out Foundry such that we can even be distribution for people who are building purpose-built models for Industries … you can build a great llm … for different Sciences … for different Industries …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "material_science",
+        "type": "Concept",
+        "properties": {
+          "name": "Material Science",
+          "supporting_text": [
+            {
+              "timestamp_range": "8:15-8:33",
+              "text": "… if like even start with chemistry right we now have good models for doing novel new materials right … in Material Science …"
+            },
+            {
+              "timestamp_range": "8:31-8:40",
+              "text": "… when I think about our data center and we say hey we want to build a more sustainable future whether it's steel or what it's all about Material Science …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "drug_discovery",
+        "type": "Concept",
+        "properties": {
+          "name": "Drug Discovery",
+          "supporting_text": [
+            {
+              "timestamp_range": "8:42-9:03",
+              "text": "… the entire Dynamic nature of a molecule … that I think is going to be breakthrough in something like drug Discovery …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "quantum",
+        "type": "Concept",
+        "properties": {
+          "name": "Quantum Computing",
+          "supporting_text": [
+            {
+              "timestamp_range": "8:57-9:14",
+              "text": "… maybe Quantum that to me might be the next big breakthrough … where science itself is computed …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "legacy_businesses",
+        "type": "Concept",
+        "properties": {
+          "name": "Legacy Businesses",
+          "supporting_text": [
+            {
+              "timestamp_range": "9:20-9:40",
+              "text": "… I've noticed a problem with Legacy businesses … I meet people who say I tried this model a year ago it was me it had hallucination and then they never give it another shot …"
+            },
+            {
+              "timestamp_range": "9:40-9:49",
+              "text": "… what's your advice to them … because a bunch of people use a specific type of model many months ago and then don't try it again …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hallucination",
+        "type": "Concept",
+        "properties": {
+          "name": "Hallucination in LLMs",
+          "supporting_text": [
+            {
+              "timestamp_range": "9:20-9:40",
+              "text": "… I tried this model a year ago it was me it had hallucination and then they never give it another shot …"
+            },
+            {
+              "timestamp_range": "9:49-10:05",
+              "text": "… if you care about hallucination there are thousand ways to get rid of hallucinations like you grounding now …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "grounding",
+        "type": "Concept",
+        "properties": {
+          "name": "Grounding (AI Technique)",
+          "supporting_text": [
+            {
+              "timestamp_range": "9:49-10:05",
+              "text": "… if you care about hallucination there are thousand ways to get rid of hallucinations like you grounding now …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "trellis_3d",
+        "type": "Product",
+        "properties": {
+          "name": "Trellis (Text to 3D Model)",
+          "supporting_text": [
+            {
+              "timestamp_range": "7:49-7:58",
+              "text": "… I just tried trellis which is your text to 3D model and I was blown away I was like this is so good …"
+            },
+            {
+              "timestamp_range": "7:58-8:03",
+              "text": "… imagine this in 2 years it's sort of like the gpd 3.5 right now and then in 2 years is going to get good …"
+            }
+          ]
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_1",
+        "type": "remarks_on",
+        "source": "satya_nadella",
+        "target": "saas",
+        "properties": {
+          "relationship_description": "Satya clarifies that SaaS is evolving, not dead, due to emergence of agent-based orchestration.",
+          "supporting_text": [
+            {
+              "timestamp_range": "0:08-0:18",
+              "text": "… Satya Nadella said that SaaS is dead … that's not exactly what he said …"
+            },
+            {
+              "timestamp_range": "0:21-0:56",
+              "text": "… the core application architectures have changed … that scale or if not more is going to happen again … the thing about agents … not going to be bound to any one SaaS application …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_2",
+        "type": "conceptual_evolution",
+        "source": "saas",
+        "target": "agents",
+        "properties": {
+          "relationship_description": "Agents are orchestrating tasks across multiple SaaS products, changing SaaS usage patterns.",
+          "supporting_text": [
+            {
+              "timestamp_range": "0:56-1:32",
+              "text": "… Agents will call a bunch of APIs … not bound to any one SaaS app … orchestrate across multiple …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_3",
+        "type": "competitiveness",
+        "source": "satya_nadella",
+        "target": "india",
+        "properties": {
+          "relationship_description": "Satya discusses how India can stay competitive in AI and entrepreneurial areas.",
+          "supporting_text": [
+            {
+              "timestamp_range": "3:31-3:45",
+              "text": "… India's Competitiveness … how does India stay competitive as this changes …"
+            },
+            {
+              "timestamp_range": "4:34-5:09",
+              "text": "… India has tremendous opportunity … developer community here, entrepreneurial energy, etc. …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_4",
+        "type": "related_to",
+        "source": "dynamics_crm",
+        "target": "copilot",
+        "properties": {
+          "relationship_description": "Copilot can interface with Dynamics CRM to retrieve account information.",
+          "supporting_text": [
+            {
+              "timestamp_range": "1:03-1:40",
+              "text": "… I go to co-pilot … touching Dynamic CRM … brings back info from Office 365 … I never log into CRM but now I'm querying it daily …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_5",
+        "type": "related_to",
+        "source": "sharepoint",
+        "target": "agents",
+        "properties": {
+          "relationship_description": "SharePoint is used via an agent interface to query data seamlessly.",
+          "supporting_text": [
+            {
+              "timestamp_range": "2:01-2:28",
+              "text": "… a simple agent now which is a SharePoint agent that I'm always addressing …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_6",
+        "type": "distribution_platform",
+        "source": "foundry",
+        "target": "llms",
+        "properties": {
+          "relationship_description": "Foundry is described as a distribution mechanism for purpose-built LLMs.",
+          "supporting_text": [
+            {
+              "timestamp_range": "3:31-5:00",
+              "text": "… we are building out Foundry such that we can even be distribution for people who are building purpose-built models …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_7",
+        "type": "frontier_ai_application",
+        "source": "material_science",
+        "target": "llms",
+        "properties": {
+          "relationship_description": "LLMs and model architectures can aid in discovering new materials for sustainability.",
+          "supporting_text": [
+            {
+              "timestamp_range": "8:15-8:33",
+              "text": "… we now have good models for doing novel new materials … in Material Science …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_8",
+        "type": "frontier_ai_application",
+        "source": "drug_discovery",
+        "target": "llms",
+        "properties": {
+          "relationship_description": "LLM-based or AI-based molecular modeling can accelerate drug discovery.",
+          "supporting_text": [
+            {
+              "timestamp_range": "8:42-9:03",
+              "text": "… being able to model the entire Dynamic nature of a molecule … that's going to be a breakthrough in drug discovery …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_9",
+        "type": "future_tech_synergy",
+        "source": "quantum",
+        "target": "llms",
+        "properties": {
+          "relationship_description": "Quantum computing combined with AI models could lead to breakthroughs in science.",
+          "supporting_text": [
+            {
+              "timestamp_range": "8:57-9:14",
+              "text": "… maybe Quantum … might be the next big breakthrough … science itself is computed …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_10",
+        "type": "obstacle_for",
+        "source": "legacy_businesses",
+        "target": "llms",
+        "properties": {
+          "relationship_description": "Legacy businesses hesitate adopting LLMs due to past poor experiences or hallucinations.",
+          "supporting_text": [
+            {
+              "timestamp_range": "9:20-9:40",
+              "text": "… I meet people who say I tried this model a year ago it was me it had hallucination and then they never give it another shot …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_11",
+        "type": "solution_for",
+        "source": "grounding",
+        "target": "hallucination",
+        "properties": {
+          "relationship_description": "Grounding is mentioned as a technique to reduce LLM hallucination.",
+          "supporting_text": [
+            {
+              "timestamp_range": "9:49-10:05",
+              "text": "… if you care about hallucination … thousand ways to get rid of hallucinations like grounding …"
+            }
+          ]
+        }
+      },
+      {
+        "id": "edge_12",
+        "type": "demonstration_of",
+        "source": "trellis_3d",
+        "target": "llms",
+        "properties": {
+          "relationship_description": "Trellis (text-to-3D) is given as an example of how AI models can evolve quickly over time.",
+          "supporting_text": [
+            {
+              "timestamp_range": "7:49-8:03",
+              "text": "… I just tried trellis which is your text to 3D model and I was blown away … imagine this in 2 years …"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "disclaimer": "Note: The above JSON knowledge graph is derived entirely from the transcript at https://www.youtube.com/watch?v=GuqAUv4UKXo. Additional context, such as Satya Nadella’s role as Microsoft CEO, would be considered external knowledge. All 'supporting_text' excerpts and timestamps come from the provided interview transcript."
+}
